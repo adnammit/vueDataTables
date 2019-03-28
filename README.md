@@ -27,3 +27,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### PROJECT NOTES:
+* tried to mitigate IE headaches by adding `transpileDependencies` in `vue.config.js`
+* added `no-console` rule in `.eslintrc.js` to allow `Console.log()` in code
+
+
+### TO DO:
+* add webpack
