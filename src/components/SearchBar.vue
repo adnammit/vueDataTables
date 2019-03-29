@@ -1,6 +1,10 @@
 <template>
   <v-toolbar app dark color="primary" fixed>
-    <v-toolbar-title class="white--text">DATA STUFF</v-toolbar-title>
+    <v-toolbar-title class="white--text">DATA TABLES</v-toolbar-title>
+    <v-spacer></v-spacer>
+    <router-link :to="{ name: 'weather-report', params: { }}">Weather Trends</router-link>
+    <router-link :to="{ name: 'nobel-report', params: { }}">Nobel Prizes</router-link>
+    <router-link :to="{ name: 'dessert-report', params: { }}">Desserts</router-link>
     <v-spacer></v-spacer>
     <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details></v-text-field>
     <v-menu offset-y :nudge-left="170" :close-on-content-click="false">

@@ -34,8 +34,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### TO DO:
+* fix search
 * add webpack
-* routing
+* put reports into a dropdown
 * top-level data loading (not at component level!)
 * add date picker
 * add aggregate header row

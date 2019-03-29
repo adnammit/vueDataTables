@@ -17,6 +17,26 @@
     vertical-align: middle;
 }
 
+.v-toolbar__title, nav a {
+    color: #f5f5f5;
+    font-size: 1.4em;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    padding: 15px 20px;
+    margin: 0 30px;
+    font-size: 0.8em;
+    border: solid 1.5px;
+    border-radius: 5px;
+    border-color: #b3d4fc;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
     .mobile table.v-table tr {
         max-width: 100%;
