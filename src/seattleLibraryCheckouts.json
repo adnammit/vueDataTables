@@ -1,0 +1,872 @@
+{
+  "license": {
+    "name": "Public Domain"
+  },
+  "rights": [
+    "read"
+  ],
+  "owner": {
+    "id": "vzfw-utud",
+    "type": "interactive",
+    "displayName": "SPL",
+    "profileImageUrlLarge": "/api/users/vzfw-utud/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/vzfw-utud/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/vzfw-utud/profile_images/TINY",
+    "screenName": "SPL"
+  },
+  "id": "tmmm-ytt6",
+  "attributionLink": "https://www.spl.org",
+  "tableId": 14019158,
+  "columns": [
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288058210,
+      "fieldName": "usageclass",
+      "name": "UsageClass",
+      "cachedContents": {
+        "non_null": 32723545,
+        "top": [
+          {
+            "count": 20,
+            "item": "Physical"
+          },
+          {
+            "count": 19,
+            "item": "Digital"
+          }
+        ],
+        "largest": "Physical",
+        "smallest": "Digital",
+        "null": 0
+      },
+      "position": 1,
+      "tableColumnId": 43199700,
+      "renderTypeName": "text",
+      "format": {},
+      "description": "Denotes if item is “physical” or “digital”"
+    },
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288058211,
+      "fieldName": "checkouttype",
+      "name": "CheckoutType",
+      "cachedContents": {
+        "non_null": 32723545,
+        "top": [
+          {
+            "count": 20,
+            "item": "Horizon"
+          },
+          {
+            "count": 19,
+            "item": "OverDrive"
+          },
+          {
+            "count": 18,
+            "item": "Freegal"
+          },
+          {
+            "count": 17,
+            "item": "Hoopla"
+          },
+          {
+            "count": 16,
+            "item": "Zinio"
+          }
+        ],
+        "largest": "Zinio",
+        "smallest": "Freegal",
+        "null": 0
+      },
+      "position": 2,
+      "tableColumnId": 43199701,
+      "renderTypeName": "text",
+      "format": {},
+      "description": "Denotes the vendor tool used to check out the item."
+    },
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288058239,
+      "fieldName": "materialtype",
+      "name": "MaterialType",
+      "cachedContents": {
+        "non_null": 32723545,
+        "top": [
+          {
+            "count": 20,
+            "item": "BOOK"
+          },
+          {
+            "count": 19,
+            "item": "SOUNDDISC"
+          },
+          {
+            "count": 18,
+            "item": "VIDEOCASS"
+          },
+          {
+            "count": 17,
+            "item": "VIDEODISC"
+          },
+          {
+            "count": 16,
+            "item": "SOUNDCASS"
+          },
+          {
+            "count": 15,
+            "item": "MUSIC"
+          },
+          {
+            "count": 14,
+            "item": "MIXED"
+          },
+          {
+            "count": 13,
+            "item": "CR"
+          },
+          {
+            "count": 12,
+            "item": "KIT"
+          },
+          {
+            "count": 11,
+            "item": "SOUNDDISC, VIDEODISC"
+          },
+          {
+            "count": 10,
+            "item": "VISUAL"
+          },
+          {
+            "count": 9,
+            "item": "ATLAS"
+          },
+          {
+            "count": 8,
+            "item": "ER, VIDEODISC"
+          },
+          {
+            "count": 7,
+            "item": "ER"
+          },
+          {
+            "count": 6,
+            "item": "MICROFORM"
+          },
+          {
+            "count": 5,
+            "item": "SOUNDREC"
+          },
+          {
+            "count": 4,
+            "item": "MAP"
+          },
+          {
+            "count": 3,
+            "item": "MUSICSNDREC"
+          },
+          {
+            "count": 2,
+            "item": "REGPRINT"
+          },
+          {
+            "count": 1,
+            "item": "GLOBE"
+          }
+        ],
+        "largest": "VISUAL",
+        "smallest": "ATLAS",
+        "null": 0
+      },
+      "position": 3,
+      "tableColumnId": 43199729,
+      "renderTypeName": "text",
+      "format": {},
+      "description": "Describes the type of item checked out (examples: book, song movie, music, magazine)"
+    },
+    {
+      "dataTypeName": "number",
+      "width": 100,
+      "id": 288058527,
+      "fieldName": "checkoutyear",
+      "name": "CheckoutYear",
+      "cachedContents": {
+        "top": [
+          {
+            "count": 20,
+            "item": "2005"
+          },
+          {
+            "count": 19,
+            "item": "2006"
+          },
+          {
+            "count": 18,
+            "item": "2007"
+          },
+          {
+            "count": 17,
+            "item": "2008"
+          },
+          {
+            "count": 16,
+            "item": "2009"
+          },
+          {
+            "count": 15,
+            "item": "2010"
+          },
+          {
+            "count": 14,
+            "item": "2011"
+          },
+          {
+            "count": 13,
+            "item": "2012"
+          },
+          {
+            "count": 12,
+            "item": "2013"
+          },
+          {
+            "count": 11,
+            "item": "2014"
+          },
+          {
+            "count": 10,
+            "item": "2015"
+          },
+          {
+            "count": 9,
+            "item": "2016"
+          },
+          {
+            "count": 8,
+            "item": "2017"
+          },
+          {
+            "count": 7,
+            "item": "2018"
+          }
+        ],
+        "average": "2012.124250810846",
+        "smallest": "2005",
+        "sum": "65843838467",
+        "largest": "2018",
+        "non_null": 32723545,
+        "null": 0
+      },
+      "position": 4,
+      "tableColumnId": 43199762,
+      "renderTypeName": "number",
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "true",
+        "align": "right"
+      },
+      "description": "The 4-digit year of checkout for this record."
+    },
+    {
+      "dataTypeName": "number",
+      "width": 100,
+      "id": 288058540,
+      "fieldName": "checkoutmonth",
+      "name": "CheckoutMonth",
+      "cachedContents": {
+        "top": [
+          {
+            "count": 20,
+            "item": "4"
+          },
+          {
+            "count": 19,
+            "item": "5"
+          },
+          {
+            "count": 18,
+            "item": "6"
+          },
+          {
+            "count": 17,
+            "item": "7"
+          },
+          {
+            "count": 16,
+            "item": "8"
+          },
+          {
+            "count": 15,
+            "item": "9"
+          },
+          {
+            "count": 14,
+            "item": "10"
+          },
+          {
+            "count": 13,
+            "item": "11"
+          },
+          {
+            "count": 12,
+            "item": "12"
+          },
+          {
+            "count": 11,
+            "item": "1"
+          },
+          {
+            "count": 10,
+            "item": "2"
+          },
+          {
+            "count": 9,
+            "item": "3"
+          }
+        ],
+        "average": "6.543906596916685",
+        "smallest": "1",
+        "sum": "214139822",
+        "largest": "12",
+        "non_null": 32723545,
+        "null": 0
+      },
+      "position": 5,
+      "tableColumnId": 43199775,
+      "renderTypeName": "number",
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "true",
+        "align": "right"
+      },
+      "description": "The month of checkout for this record."
+    },
+    {
+      "dataTypeName": "number",
+      "width": 100,
+      "id": 288058673,
+      "fieldName": "checkouts",
+      "name": "Checkouts",
+      "cachedContents": {
+        "top": [
+          {
+            "count": 20,
+            "item": "1"
+          },
+          {
+            "count": 19,
+            "item": "3"
+          },
+          {
+            "count": 18,
+            "item": "4"
+          },
+          {
+            "count": 17,
+            "item": "2"
+          },
+          {
+            "count": 16,
+            "item": "16"
+          },
+          {
+            "count": 15,
+            "item": "5"
+          },
+          {
+            "count": 14,
+            "item": "6"
+          },
+          {
+            "count": 13,
+            "item": "7"
+          },
+          {
+            "count": 12,
+            "item": "8"
+          },
+          {
+            "count": 11,
+            "item": "18"
+          },
+          {
+            "count": 10,
+            "item": "9"
+          },
+          {
+            "count": 9,
+            "item": "21"
+          },
+          {
+            "count": 8,
+            "item": "10"
+          },
+          {
+            "count": 7,
+            "item": "12"
+          },
+          {
+            "count": 6,
+            "item": "14"
+          },
+          {
+            "count": 5,
+            "item": "15"
+          },
+          {
+            "count": 4,
+            "item": "17"
+          },
+          {
+            "count": 3,
+            "item": "13"
+          },
+          {
+            "count": 2,
+            "item": "11"
+          },
+          {
+            "count": 1,
+            "item": "20"
+          }
+        ],
+        "average": "3.510354944734747",
+        "smallest": "1",
+        "sum": "114871258",
+        "largest": "2073",
+        "non_null": 32723545,
+        "null": 0
+      },
+      "position": 6,
+      "tableColumnId": 43199908,
+      "renderTypeName": "number",
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right"
+      },
+      "description": "A count of the number of times the title was checked out within the “Checkout Month”. "
+    },
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288058675,
+      "fieldName": "title",
+      "name": "Title",
+      "cachedContents": {
+        "non_null": 32723545,
+        "top": [
+          {
+            "count": 20,
+            "item": "The tooth book / by Dr. Seuss writing as Theo. LeSieg ; illustrated by Joe Mathieu."
+          },
+          {
+            "count": 19,
+            "item": "Art house / Onereic House Productions ; Don Freeman, producer, director, editor, still photography, cinematography."
+          },
+          {
+            "count": 18,
+            "item": "Broken Things"
+          },
+          {
+            "count": 17,
+            "item": "The ancient magus' bride. [Volume 9] / [story and art by Kore Yamazaki ; translation, Adrienne Beck ; adaptation, Ysabet Reinhardt MacFarlane ; lettering and retouch, Lys Blakeslee]."
+          },
+          {
+            "count": 16,
+            "item": "The destruction of Dresden. / With an introd. by Ira C. Eaker."
+          },
+          {
+            "count": 15,
+            "item": "Literally show me a healthy person / Darcie Wilder."
+          },
+          {
+            "count": 14,
+            "item": "Catch a Falling Heiress: American Heiress In London Series, Book 3 (unabridged) (Unabridged)"
+          },
+          {
+            "count": 13,
+            "item": "Like crazy / Paramount Vantage ; Indian Paintbrush ; Super Crispy Entertainment ; produced by Jonathan Schwartz, Andrea Sperling ; written by Drake Doremus & Ben York Jones ; directed by Drake Doremus."
+          },
+          {
+            "count": 12,
+            "item": "Oishisō na shirokuma / Shibata Keiko."
+          },
+          {
+            "count": 11,
+            "item": "Naruto. Vol. 65, Hashirama and Madara / story and art by Masashi Kishimoto ; translation, Mari Morimoto."
+          }
+        ],
+        "largest": "［当代］教育与社会基本理论发展与论著选读",
+        "smallest": "",
+        "null": 0
+      },
+      "position": 7,
+      "tableColumnId": 43199910,
+      "renderTypeName": "text",
+      "format": {},
+      "description": "The full title and subtitle of an individual item"
+    },
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288058710,
+      "fieldName": "creator",
+      "name": "Creator",
+      "cachedContents": {
+        "non_null": 20853590,
+        "top": [
+          {
+            "count": 20,
+            "item": "Yamazaki, Kore"
+          },
+          {
+            "count": 19,
+            "item": "Irving, David John Cawdell, 1938-"
+          },
+          {
+            "count": 18,
+            "item": "Wilder, Darcie"
+          },
+          {
+            "count": 17,
+            "item": "Laura Lee Guhrke"
+          },
+          {
+            "count": 16,
+            "item": "Shibata, Keiko."
+          },
+          {
+            "count": 15,
+            "item": "Kishimoto, Masashi, 1974-"
+          }
+        ],
+        "largest": "［美］劳拉·英格斯·怀德",
+        "smallest": ",Wolfgang Amadeus Mozart,Colin Davis,Sinfonia of London",
+        "null": 11869955
+      },
+      "position": 8,
+      "tableColumnId": 43199923,
+      "renderTypeName": "text",
+      "format": {},
+      "description": "The author or entity responsible for authoring the item."
+    },
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288058752,
+      "fieldName": "subjects",
+      "name": "Subjects",
+      "cachedContents": {
+        "non_null": 31004866,
+        "top": [
+          {
+            "count": 20,
+            "item": "Fiction, Mystery"
+          },
+          {
+            "count": 19,
+            "item": "Fiction, Historical Fiction, Romance"
+          },
+          {
+            "count": 18,
+            "item": "First loves Drama, College students Drama, Feature films, Fiction films, Video recordings for the hearing impaired, Video recordings for people with visual disabilities"
+          },
+          {
+            "count": 17,
+            "item": "Polar bear Juvenile fiction, Food Juvenile fiction, Picture books for children, Japanese language materials"
+          },
+          {
+            "count": 16,
+            "item": "Naruto Fictitious character Comic books strips etc, Ninja Japan Comic books strips etc, Graphic novels"
+          }
+        ],
+        "largest": "™zelsel Michaela M, Sufism, Spiritual life Sufism",
+        "smallest": "· La MŠre de Famille, Confectionery France Paris, Desserts France Paris, Candy France Paris, Restaurants France Paris, Cookbooks",
+        "null": 1718679
+      },
+      "position": 9,
+      "tableColumnId": 43199965,
+      "renderTypeName": "text",
+      "format": {},
+      "description": "The subject of the item as it appears in the catalog"
+    },
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288783527,
+      "fieldName": "publisher",
+      "name": "Publisher",
+      "cachedContents": {
+        "non_null": 23228570,
+        "top": [
+          {
+            "count": 20,
+            "item": "Random House, Inc."
+          },
+          {
+            "count": 19,
+            "item": "HarperCollins Publishers Inc."
+          },
+          {
+            "count": 18,
+            "item": "Penguin Group (USA), Inc."
+          },
+          {
+            "count": 17,
+            "item": "Books on Tape"
+          },
+          {
+            "count": 16,
+            "item": "Blackstone Audio, Inc."
+          },
+          {
+            "count": 15,
+            "item": "Macmillan Publishers"
+          },
+          {
+            "count": 14,
+            "item": "Random House,"
+          },
+          {
+            "count": 13,
+            "item": "First Run Features,"
+          },
+          {
+            "count": 12,
+            "item": "Seven Seas Entertainment, LLC,"
+          },
+          {
+            "count": 11,
+            "item": "Holt, Rinehart and Winston,"
+          },
+          {
+            "count": 10,
+            "item": "Tyrant Books,"
+          },
+          {
+            "count": 9,
+            "item": "Paramount Home Entertainment,"
+          },
+          {
+            "count": 8,
+            "item": "Pīeichipīkenkyūjo,"
+          },
+          {
+            "count": 7,
+            "item": "VIZ Media,"
+          }
+        ],
+        "largest": "︠T︡Sentrpoligraf : MiM-Delʹta,",
+        "smallest": ",",
+        "null": 9494975
+      },
+      "position": 10,
+      "tableColumnId": 43377269,
+      "renderTypeName": "text",
+      "format": {
+        "align": "left",
+        "displayStyle": "plain"
+      },
+      "description": "The publisher of the title"
+    },
+    {
+      "dataTypeName": "text",
+      "width": 100,
+      "id": 288783528,
+      "fieldName": "publicationyear",
+      "name": "PublicationYear",
+      "cachedContents": {
+        "non_null": 22908116,
+        "top": [
+          {
+            "count": 20,
+            "item": "2008."
+          },
+          {
+            "count": 19,
+            "item": "2009."
+          },
+          {
+            "count": 18,
+            "item": "2009"
+          },
+          {
+            "count": 17,
+            "item": "2010."
+          },
+          {
+            "count": 16,
+            "item": "2010"
+          },
+          {
+            "count": 15,
+            "item": "2011"
+          },
+          {
+            "count": 14,
+            "item": "2011."
+          },
+          {
+            "count": 13,
+            "item": "2012"
+          },
+          {
+            "count": 12,
+            "item": "2012."
+          },
+          {
+            "count": 11,
+            "item": "2013"
+          },
+          {
+            "count": 10,
+            "item": "2013."
+          },
+          {
+            "count": 9,
+            "item": "2014"
+          },
+          {
+            "count": 8,
+            "item": "2014."
+          },
+          {
+            "count": 7,
+            "item": "[2014]"
+          },
+          {
+            "count": 6,
+            "item": "2015"
+          },
+          {
+            "count": 5,
+            "item": "[2015]"
+          },
+          {
+            "count": 4,
+            "item": "2015."
+          },
+          {
+            "count": 3,
+            "item": "2016"
+          },
+          {
+            "count": 2,
+            "item": "[2016]"
+          },
+          {
+            "count": 1,
+            "item": "2016."
+          }
+        ],
+        "largest": "℗2018.",
+        "smallest": ",<c1998- >",
+        "null": 9815429
+      },
+      "position": 11,
+      "tableColumnId": 43377270,
+      "renderTypeName": "text",
+      "format": {
+        "align": "left",
+        "displayStyle": "plain"
+      },
+      "description": "The year from the catalog record in which the item was published, printed, or copyrighted.  "
+    }
+  ],
+  "tableAuthor": {
+    "id": "vzfw-utud",
+    "type": "interactive",
+    "displayName": "SPL",
+    "profileImageUrlLarge": "/api/users/vzfw-utud/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/vzfw-utud/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/vzfw-utud/profile_images/TINY",
+    "screenName": "SPL"
+  },
+  "viewLastModified": 1523488895,
+  "attribution": "Seattle Public Library",
+  "category": "Community",
+  "tags": [
+    "horizon",
+    "overdrive",
+    "freegal",
+    "hoopla",
+    "zinio",
+    "e-book",
+    "circulation",
+    "seattle public library",
+    "checkout"
+  ],
+  "downloadCount": 1098,
+  "hideFromCatalog": false,
+  "createdAt": 1485895157,
+  "newBackend": true,
+  "displayType": "table",
+  "numberOfComments": 0,
+  "publicationGroup": 14019158,
+  "viewType": "tabular",
+  "hideFromDataJson": false,
+  "rowClass": "",
+  "name": "Checkouts by Title",
+  "licenseId": "PUBLIC_DOMAIN",
+  "flags": [
+    "default",
+    "restorable",
+    "restorePossibleForType"
+  ],
+  "publicationDate": 1486665681,
+  "averageRating": 0,
+  "oid": 25359063,
+  "totalTimesRated": 0,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1546784396,
+  "indexUpdatedAt": 1541573226,
+  "provenance": "official",
+  "rowsUpdatedBy": "vzfw-utud",
+  "query": {},
+  "grants": [
+    {
+      "type": "viewer",
+      "flags": [
+        "public"
+      ],
+      "inherited": false
+    }
+  ],
+  "description": "This dataset includes a monthly count of Seattle Public Library checkouts by title for physical and electronic items. The dataset begins with checkouts that occurred in April 2005.",
+  "viewCount": 2630,
+  "metadata": {
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ],
+    "renderTypeConfig": {
+      "visible": {
+        "table": true
+      }
+    },
+    "rdfSubject": "0",
+    "custom_fields": {
+      "Refresh Frequency": {
+        "Frequency": "Monthly"
+      },
+      "Data Owner": {
+        "Department": "Seattle Public Library"
+      }
+    },
+    "rdfClass": "",
+    "rowLabel": "Checkout Count",
+    "rowIdentifier": "0",
+    "attachments": [
+      {
+        "blobId": "",
+        "assetId": "d37b9edc-c56f-46e4-aaea-cb882230cf3a",
+        "name": "Checkouts by Title FAQs.pdf",
+        "filename": "Checkouts by Title FAQs.pdf"
+      }
+    ]
+  },
+  "publicationAppendEnabled": false
+}

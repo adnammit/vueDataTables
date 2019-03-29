@@ -2,8 +2,19 @@
     color: #333;
 }
 
-.data-table {
-    padding-top: 15px;
+
+.table-subrows tr:first-child {
+    color: #111;
+    font-weight: bold;
+}
+.table-subrows tr:last-child {
+    color: #333;
+    font-style: italic;
+}
+
+.v-table td {
+    padding: 5px;
+    vertical-align: middle;
 }
 
 @media screen and (max-width: 768px) {

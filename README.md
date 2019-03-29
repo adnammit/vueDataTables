@@ -35,3 +35,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### TO DO:
 * add webpack
+* routing
+* top-level data loading (not at component level!)
+* add date picker
+* add aggregate header row

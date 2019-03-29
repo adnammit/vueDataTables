@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar dark color="primary" fixed>
+  <v-toolbar app dark color="primary" fixed>
     <v-toolbar-title class="white--text">DATA STUFF</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details></v-text-field>
